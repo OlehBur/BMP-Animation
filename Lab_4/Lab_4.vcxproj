@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6e93a710-ca37-43e8-a1fe-011a075dada5}</ProjectGuid>
+    <RootNamespace>Lab4</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\..\Downloads\cosmonaut_(53).bmp" />
+    <Image Include="textures\cosmonaut_(1).bmp" />
+    <Image Include="textures\cosmonaut_(10).bmp" />
+    <Image Include="textures\cosmonaut_(100).bmp" />
+    <Image Include="textures\cosmonaut_(101).bmp" />
+    <Image Include="textures\cosmonaut_(102).bmp" />
+    <Image Include="textures\cosmonaut_(103).bmp" />
+    <Image Include="textures\cosmonaut_(104).bmp" />
+    <Image Include="textures\cosmonaut_(105).bmp" />
+    <Image Include="textures\cosmonaut_(106).bmp" />
+    <Image Include="textures\cosmonaut_(107).bmp" />
+    <Image Include="textures\cosmonaut_(108).bmp" />
+    <Image Include="textures\cosmonaut_(109).bmp" />
+    <Image Include="textures\cosmonaut_(11).bmp" />
+    <Image Include="textures\cosmonaut_(110).bmp" />
+    <Image Include="textures\cosmonaut_(111).bmp" />
+    <Image Include="textures\cosmonaut_(112).bmp" />
+    <Image Include="textures\cosmonaut_(113).bmp" />
+    <Image Include="textures\cosmonaut_(114).bmp" />
+    <Image Include="textures\cosmonaut_(115).bmp" />
+    <Image Include="textures\cosmonaut_(116).bmp" />
+    <Image Include="textures\cosmonaut_(117).bmp" />
+    <Image Include="textures\cosmonaut_(118).bmp" />
+    <Image Include="textures\cosmonaut_(119).bmp" />
+    <Image Include="textures\cosmonaut_(12).bmp" />
+    <Image Include="textures\cosmonaut_(120).bmp" />
+    <Image Include="textures\cosmonaut_(121).bmp" />
+    <Image Include="textures\cosmonaut_(122).bmp" />
+    <Image Include="textures\cosmonaut_(123).bmp" />
+    <Image Include="textures\cosmonaut_(124).bmp" />
+    <Image Include="textures\cosmonaut_(125).bmp" />
+    <Image Include="textures\cosmonaut_(126).bmp" />
+    <Image Include="textures\cosmonaut_(127).bmp" />
+    <Image Include="textures\cosmonaut_(128).bmp" />
+    <Image Include="textures\cosmonaut_(129).bmp" />
+    <Image Include="textures\cosmonaut_(13).bmp" />
+    <Image Include="textures\cosmonaut_(130).bmp" />
+    <Image Include="textures\cosmonaut_(131).bmp" />
+    <Image Include="textures\cosmonaut_(132).bmp" />
+    <Image Include="textures\cosmonaut_(133).bmp" />
+    <Image Include="textures\cosmonaut_(134).bmp" />
+    <Image Include="textures\cosmonaut_(135).bmp" />
+    <Image Include="textures\cosmonaut_(136).bmp" />
+    <Image Include="textures\cosmonaut_(137).bmp" />
+    <Image Include="textures\cosmonaut_(138).bmp" />
+    <Image Include="textures\cosmonaut_(139).bmp" />
+    <Image Include="textures\cosmonaut_(14).bmp" />
+    <Image Include="textures\cosmonaut_(140).bmp" />
+    <Image Include="textures\cosmonaut_(141).bmp" />
+    <Image Include="textures\cosmonaut_(142).bmp" />
+    <Image Include="textures\cosmonaut_(143).bmp" />
+    <Image Include="textures\cosmonaut_(144).bmp" />
+    <Image Include="textures\cosmonaut_(145).bmp" />
+    <Image Include="textures\cosmonaut_(146).bmp" />
+    <Image Include="textures\cosmonaut_(147).bmp" />
+    <Image Include="textures\cosmonaut_(148).bmp" />
+    <Image Include="textures\cosmonaut_(149).bmp" />
+    <Image Include="textures\cosmonaut_(15).bmp" />
+    <Image Include="textures\cosmonaut_(150).bmp" />
+    <Image Include="textures\cosmonaut_(151).bmp" />
+    <Image Include="textures\cosmonaut_(152).bmp" />
+    <Image Include="textures\cosmonaut_(153).bmp" />
+    <Image Include="textures\cosmonaut_(154).bmp" />
+    <Image Include="textures\cosmonaut_(155).bmp" />
+    <Image Include="textures\cosmonaut_(156).bmp" />
+    <Image Include="textures\cosmonaut_(157).bmp" />
+    <Image Include="textures\cosmonaut_(16).bmp" />
+    <Image Include="textures\cosmonaut_(17).bmp" />
+    <Image Include="textures\cosmonaut_(18).bmp" />
+    <Image Include="textures\cosmonaut_(19).bmp" />
+    <Image Include="textures\cosmonaut_(2).bmp" />
+    <Image Include="textures\cosmonaut_(20).bmp" />
+    <Image Include="textures\cosmonaut_(21).bmp" />
+    <Image Include="textures\cosmonaut_(22).bmp" />
+    <Image Include="textures\cosmonaut_(23).bmp" />
+    <Image Include="textures\cosmonaut_(24).bmp" />
+    <Image Include="textures\cosmonaut_(25).bmp" />
+    <Image Include="textures\cosmonaut_(26).bmp" />
+    <Image Include="textures\cosmonaut_(27).bmp" />
+    <Image Include="textures\cosmonaut_(28).bmp" />
+    <Image Include="textures\cosmonaut_(29).bmp" />
+    <Image Include="textures\cosmonaut_(3).bmp" />
+    <Image Include="textures\cosmonaut_(30).bmp" />
+    <Image Include="textures\cosmonaut_(31).bmp" />
+    <Image Include="textures\cosmonaut_(32).bmp" />
+    <Image Include="textures\cosmonaut_(33).bmp" />
+    <Image Include="textures\cosmonaut_(34).bmp" />
+    <Image Include="textures\cosmonaut_(35).bmp" />
+    <Image Include="textures\cosmonaut_(36).bmp" />
+    <Image Include="textures\cosmonaut_(37).bmp" />
+    <Image Include="textures\cosmonaut_(38).bmp" />
+    <Image Include="textures\cosmonaut_(39).bmp" />
+    <Image Include="textures\cosmonaut_(4).bmp" />
+    <Image Include="textures\cosmonaut_(40).bmp" />
+    <Image Include="textures\cosmonaut_(41).bmp" />
+    <Image Include="textures\cosmonaut_(42).bmp" />
+    <Image Include="textures\cosmonaut_(43).bmp" />
+    <Image Include="textures\cosmonaut_(44).bmp" />
+    <Image Include="textures\cosmonaut_(45).bmp" />
+    <Image Include="textures\cosmonaut_(46).bmp" />
+    <Image Include="textures\cosmonaut_(47).bmp" />
+    <Image Include="textures\cosmonaut_(48).bmp" />
+    <Image Include="textures\cosmonaut_(49).bmp" />
+    <Image Include="textures\cosmonaut_(5).bmp" />
+    <Image Include="textures\cosmonaut_(50).bmp" />
+    <Image Include="textures\cosmonaut_(51).bmp" />
+    <Image Include="textures\cosmonaut_(52).bmp" />
+    <Image Include="textures\cosmonaut_(53).bmp" />
+    <Image Include="textures\cosmonaut_(54).bmp" />
+    <Image Include="textures\cosmonaut_(55).bmp" />
+    <Image Include="textures\cosmonaut_(56).bmp" />
+    <Image Include="textures\cosmonaut_(57).bmp" />
+    <Image Include="textures\cosmonaut_(58).bmp" />
+    <Image Include="textures\cosmonaut_(59).bmp" />
+    <Image Include="textures\cosmonaut_(6).bmp" />
+    <Image Include="textures\cosmonaut_(60).bmp" />
+    <Image Include="textures\cosmonaut_(61).bmp" />
+    <Image Include="textures\cosmonaut_(62).bmp" />
+    <Image Include="textures\cosmonaut_(63).bmp" />
+    <Image Include="textures\cosmonaut_(64).bmp" />
+    <Image Include="textures\cosmonaut_(65).bmp" />
+    <Image Include="textures\cosmonaut_(66).bmp" />
+    <Image Include="textures\cosmonaut_(67).bmp" />
+    <Image Include="textures\cosmonaut_(68).bmp" />
+    <Image Include="textures\cosmonaut_(69).bmp" />
+    <Image Include="textures\cosmonaut_(7).bmp" />
+    <Image Include="textures\cosmonaut_(70).bmp" />
+    <Image Include="textures\cosmonaut_(71).bmp" />
+    <Image Include="textures\cosmonaut_(72).bmp" />
+    <Image Include="textures\cosmonaut_(73).bmp" />
+    <Image Include="textures\cosmonaut_(74).bmp" />
+    <Image Include="textures\cosmonaut_(75).bmp" />
+    <Image Include="textures\cosmonaut_(76).bmp" />
+    <Image Include="textures\cosmonaut_(77).bmp" />
+    <Image Include="textures\cosmonaut_(78).bmp" />
+    <Image Include="textures\cosmonaut_(79).bmp" />
+    <Image Include="textures\cosmonaut_(8).bmp" />
+    <Image Include="textures\cosmonaut_(80).bmp" />
+    <Image Include="textures\cosmonaut_(81).bmp" />
+    <Image Include="textures\cosmonaut_(82).bmp" />
+    <Image Include="textures\cosmonaut_(83).bmp" />
+    <Image Include="textures\cosmonaut_(84).bmp" />
+    <Image Include="textures\cosmonaut_(85).bmp" />
+    <Image Include="textures\cosmonaut_(86).bmp" />
+    <Image Include="textures\cosmonaut_(87).bmp" />
+    <Image Include="textures\cosmonaut_(88).bmp" />
+    <Image Include="textures\cosmonaut_(89).bmp" />
+    <Image Include="textures\cosmonaut_(9).bmp" />
+    <Image Include="textures\cosmonaut_(90).bmp" />
+    <Image Include="textures\cosmonaut_(91).bmp" />
+    <Image Include="textures\cosmonaut_(92).bmp" />
+    <Image Include="textures\cosmonaut_(93).bmp" />
+    <Image Include="textures\cosmonaut_(94).bmp" />
+    <Image Include="textures\cosmonaut_(95).bmp" />
+    <Image Include="textures\cosmonaut_(96).bmp" />
+    <Image Include="textures\cosmonaut_(97).bmp" />
+    <Image Include="textures\cosmonaut_(98).bmp" />
+    <Image Include="textures\cosmonaut_(99).bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="meditation.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

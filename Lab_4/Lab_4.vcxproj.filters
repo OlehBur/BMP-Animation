@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\cosmonaut_(1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(4).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(5).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(6).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(7).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(8).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(9).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(10).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(11).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(12).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(13).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(14).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(15).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(16).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(17).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(18).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(19).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(20).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(21).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(22).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(23).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(24).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(25).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(26).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(27).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(28).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(29).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(30).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(31).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(32).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(33).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(34).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(35).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(36).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(37).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(38).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(39).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(40).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(41).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(42).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(43).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(44).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(46).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(47).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(48).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(49).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(50).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(51).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(52).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(59).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(62).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(63).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(66).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(71).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(74).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(78).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(79).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(89).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(90).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(91).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(92).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(93).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(96).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(97).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(100).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(104).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(106).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(107).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(113).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(114).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(115).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(116).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(117).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(118).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(119).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(120).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(121).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(122).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(123).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(124).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(125).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(126).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(127).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(128).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(129).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(130).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(131).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(132).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(133).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(134).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(135).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(136).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(137).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(138).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(139).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(140).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(141).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(142).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(143).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(144).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(145).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(146).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(147).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(148).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(149).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(150).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(151).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(152).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(153).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(154).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(155).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(156).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(157).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Downloads\cosmonaut_(53).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(54).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(55).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(45).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(53).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(56).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(57).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(58).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(60).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(61).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(64).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(65).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(67).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(68).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(69).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(70).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(72).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(73).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(75).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(76).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(77).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(80).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(81).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(82).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(83).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(84).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(85).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(86).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(87).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(88).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(94).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(95).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(98).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(99).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(101).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(102).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(103).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(105).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(108).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(109).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(110).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(111).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cosmonaut_(112).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="meditation.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
